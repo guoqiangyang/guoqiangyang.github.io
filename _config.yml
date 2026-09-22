@@ -31,6 +31,7 @@ author:
   email            : guoqiangyang@sjtu.edu.cn
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              : "https://guoqiangyang.github.io"
+  baseurl          : ""
   bitbucket        :
   codepen          :
   dribbble         :
