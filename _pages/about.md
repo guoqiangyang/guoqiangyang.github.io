@@ -46,6 +46,7 @@ I am working hard to explore the mysteries of Optical neural networks. 😄😄�
 
 # 🏆 Honors and Awards
 
+- First Prize Scholarship, Shanghai Jiao Tong University, *2025.12*.
 - First Prize Scholarship, Shanghai Jiao Tong University, *2024.12*.
 - Outstanding Undergraduate Graduate, Xidian University, *2024.06*.
 - President's Scholarship Nomination Candidates*(20/22000)*, Xidian University, *2023.11*.
