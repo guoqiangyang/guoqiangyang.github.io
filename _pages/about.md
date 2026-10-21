@@ -46,11 +46,11 @@ I am working hard to explore the mysteries of Optical neural networks. 😄😄�
 
 # 🏆 Honors and Awards
 
-- National Scholarship*(&yen;30,000)*, Ministry of Education of China, *2026.10*.
-- National Scholarship*(&yen;8,000)*, Ministry of Education of China, *2023.10*.
-- National Scholarship*(&yen;8,000)*, Ministry of Education of China, *2022.10*.
-- Xiaomi Scholarship Special Prize*(5/22000,&yen;20,000)*, Xiaomi Corporation, *2023.10*.
-- Xiaomi Scholarship General Award*(20/22000,&yen;5,000)*, Xiaomi Corporation, *2022.10*.
+- **National Scholarship***(&yen;30,000)*, Ministry of Education of China, *2026.10*.
+- **National Scholarship***(&yen;8,000)*, Ministry of Education of China, *2023.10*.
+- **National Scholarship***(&yen;8,000)*, Ministry of Education of China, *2022.10*.
+- **Xiaomi Scholarship Special Prize***(5/22000,&yen;20,000)*, Xiaomi Corporation, *2023.10*.
+- **Xiaomi Scholarship General Award***(20/22000,&yen;5,000)*, Xiaomi Corporation, *2022.10*.
 - President's Scholarship Nomination Candidates*(20/22000)*, Xidian University, *2023.11*.
 - First Prize Scholarship, Shanghai Jiao Tong University, *2025.12*.
 - First Prize Scholarship, Shanghai Jiao Tong University, *2024.12*.
