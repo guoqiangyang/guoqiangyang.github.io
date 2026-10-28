@@ -1,16 +1,63 @@
+{% assign is_zh = false %}
+{% if page.lang == "zh-CN" %}
+  {% assign is_zh = true %}
+  {% assign nav_links = site.data.navigation.main_zh %}
+  {% assign home_text = "首页" %}
+  {% assign home_href = "/zh/#about-me" %}
+{% else %}
+  {% assign nav_links = site.data.navigation.main %}
+  {% assign home_text = "Homepage" %}
+  {% assign home_href = "/#about-me" %}
+{% endif %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
+
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="More navigation">
+          <div class="navicon"></div>
+        </button>
+
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="{{ home_href | relative_url }}" target="_self">
+              {{ home_text }}
+            </a>
+          </li>
+
+          {% for link in nav_links %}
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}" target="_self">
+                {{ link.title }}
+              </a>
+            </li>
           {% endfor %}
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+
+    <div class="language-switch" role="navigation" aria-label="Language selection">
+      <a href="{{ '/' | relative_url }}"
+         target="_self"
+         lang="en"
+         hreflang="en"
+         {% unless is_zh %}class="is-active" aria-current="page"{% endunless %}>
+        EN
+      </a>
+
+      <span class="language-switch__divider" aria-hidden="true">/</span>
+
+      <a href="{{ '/zh/' | relative_url }}"
+         target="_self"
+         lang="zh-CN"
+         hreflang="zh-CN"
+         {% if is_zh %}class="is-active" aria-current="page"{% endif %}>
+        中文
+      </a>
+    </div>
+
   </div>
 </div>
