@@ -11,7 +11,7 @@ lang: zh-CN
 
 你好！👋👋👋
 
-我目前是**上海交通大学**的一名博士研究生，师从[戴琼海教授](https://media.au.tsinghua.edu.cn/cn/info/1009/1112.htm)（中国工程院院士）和[陈逸同助理教授](https://icisee.sjtu.edu.cn/jiaoshiml/336.html)。
+我目前是**上海交通大学**的一名博士研究生，师从[戴琼海教授](https://media.au.tsinghua.edu.cn/cn/info/1009/1112.htm)（中国工程院院士）和[陈一彤助理教授](https://icisee.sjtu.edu.cn/jiaoshiml/336.html)。
 
 我的主要研究兴趣包括**光学神经网络**和**深度学习**。
 
@@ -32,13 +32,11 @@ lang: zh-CN
 
 # 📝 代表性学术论文
 
-1. **[纳米光子学如何推动光计算走向实际应用](https://www.nature.com/articles/s41565-026-02264-4)**（共同第一作者、学生第一作者）<br>
-   *How nanophotonics can drive optical computing toward practical applications*<br>
+1. **[How nanophotonics can drive optical computing toward practical applications](https://www.nature.com/articles/s41565-026-02264-4)**（共同第一作者、学生第一作者）<br>
    Yitong Chen<sup>†</sup>, **Guoqiang Yang**<sup>†</sup>, Tao Yan, Chunyang Tang, Jiamin Wu, and Qionghai Dai.<br>
    **Nature Nanotechnology**, 2026.
 
-2. **[光子计算芯片的速度与复杂度权衡](https://www.jos.ac.cn/en/article/doi/10.1088/1674-4926/26020065)**（共同第一作者）<br>
-   *Photonic computing chips under the speed-complexity trade-off*<br>
+2. **[Photonic computing chips under the speed-complexity trade-off](https://www.jos.ac.cn/en/article/doi/10.1088/1674-4926/26020065)**（共同第一作者）<br>
    Xinyue Sun<sup>†</sup>, **Guoqiang Yang**<sup>†</sup>, Yitong Chen, and Guangtao Zhai.<br>
    *Journal of Semiconductors*, 2026.
 
@@ -63,4 +61,4 @@ lang: zh-CN
 # 📖 教育经历
 
 - *2024.09 — 至今*，**上海交通大学**，计算机学院，计算机科学与技术专业，博士研究生。
-- *2020.09 — 2024.06*，**西安电子科技大学**，航空航天学院，电子信息专业，工学学士，**专业排名：1/71**。
+- *2020.09 — 2024.06*，**西安电子科技大学**，空间科学与技术学院，空间科学与技术专业（电子信息类），工学学士，**专业排名：1/71**。
