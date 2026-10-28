@@ -1,4 +1,8 @@
-src="{{ '/assets/js/main.min.js' \| relative_url }}"
+<!-- Main JavaScript -->
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
+<!-- Google Analytics -->
 {% include analytics.html %}
+
+<!-- Google Scholar citation statistics -->
 {% include fetch_google_scholar_stats.html %}
