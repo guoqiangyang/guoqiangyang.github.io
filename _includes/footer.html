@@ -1,8 +1,4 @@
 <!-- Website visit counter -->
-<script
-  async
-  src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
 
 <footer
   style="
@@ -13,33 +9,28 @@
     color: #333;
   "
 >
-
   <div>
-
     {% if page.lang == "zh-CN" %}
-
       📈 本页面已被访问
-
-      <span
-        id="busuanzi_value_page_pv"
-        style="font-style: italic; font-weight: bold;"
-      ></span>
-
-      次。🔥🔥🔥
-
     {% else %}
-
       📈 My Homepage has been viewed
-
-      <span
-        id="busuanzi_value_page_pv"
-        style="font-style: italic; font-weight: bold;"
-      ></span>
-
-      times.🔥🔥🔥
-
     {% endif %}
 
-  </div>
+    <span
+      id="busuanzi_value_page_pv"
+      style="font-style: italic; font-weight: bold;"
+    >加载中...</span>
 
+    {% if page.lang == "zh-CN" %}
+      次。🔥🔥🔥
+    {% else %}
+      times.🔥🔥🔥
+    {% endif %}
+  </div>
 </footer>
+
+<!-- Load counter after the HTML element exists -->
+<script
+  defer
+  src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
